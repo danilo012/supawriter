@@ -33,7 +33,7 @@ const Template: FC<TemplateProps> = ({ children }) => {
       <footer className={`py-5 mt-10 border-t border-gray-700 border-opacity-50 bg-gray-800`}>
         <p className={"text-center text-gray-400 text-sm"}>
           Made with ❤️ by{" "}
-          <a href="https://echozone-ph.netlify.app" className={"underline"}>
+          <a href="echozone-ph.netlify.app" className={"underline"}>
             Echozoneph2022-2024
           </a>
         </p>
