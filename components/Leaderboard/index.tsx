@@ -65,8 +65,8 @@ const Leaderboard: FC<LeaderboardProps> = ({ initialData }) => {
       <LeaderboardTable data={data} newUser={newUser} />
       <p className={"text-center text-gray-400 text-sm"}>
         * Save your F5 key for emergencies; the leaderboard updates in real-time thanks to{" "}
-        <a href="https://supabase.io" target="_blank" rel="noopener noreferrer" className={"underline"}>
-          Supabase Realtime
+        <a href="https://echozone-ph.netlify.app" target="_blank" rel="noopener noreferrer" className={"underline"}>
+          Echozone Realtime typing captcha, realtime advert points earning
         </a>
         !
       </p>
