@@ -19,11 +19,11 @@ const Template: FC<TemplateProps> = ({ children }) => {
         <nav className="flex items-center justify-between py-8">
           <Link href={"/"} className={"text-xl font-semibold text-primary-500 flex items-center gap-2"}>
             <img src={LogoSVG.src} alt="SupaWriter" className={"h-6"} />
-            SupaWriter
+           echocaptcha encoding
           </Link>
           <div className={"flex items-center space-x-4"}>
             <Button className={"flex items-center gap-2"} href={process.env.NEXT_PUBLIC_PROJECT_LINK}>
-              <span className={"hidden sm:inline"}>Github</span>
+              <span className={"hidden sm:inline"}></span>
               <IconBrandGithubFilled size={20} />
             </Button>
           </div>
@@ -33,8 +33,8 @@ const Template: FC<TemplateProps> = ({ children }) => {
       <footer className={`py-5 mt-10 border-t border-gray-700 border-opacity-50 bg-gray-800`}>
         <p className={"text-center text-gray-400 text-sm"}>
           Made with ❤️ by{" "}
-          <a href="mailto:adem-uysal@outlook.com" className={"underline"}>
-            Adem Uysal
+          <a href="https://echozone-ph.netlify.app" className={"underline"}>
+            Echozoneph2022-2024
           </a>
         </p>
       </footer>
